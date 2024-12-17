@@ -1,9 +1,9 @@
 Name: Betty Vuong
-Date: 11/29/24
-Student ID: 1271673
-Course: CIS2430
+<br>Date: 11/29/24<br/>
+<br>Student ID: 1271673<br/>
+<br>Course: CIS2430<br/>
 
-General Problem
+## General Problem
 
 The program mimics an investment portfolio where a user can keep track of their investment activities. 
 For this specific program the eportfolio contains two types of investments (stocks and mutual funds), 
@@ -12,14 +12,14 @@ attributes of investments, updating investment prices, and calculating the total
 All the calculations are automatic and displayed for the user. The user will be able to interact with the
 program using the GUI interface implemented for the program.
 
-Assumptions and Limitations
+### Assumptions and Limitations
 
 Although the program is designed to be robust. This means that many inputs and actions are handled
 by the program by exception handling. The user is providing the data for each investment meaning 
 that the investments may not be accurate to the market. The program is built for user interaction
 through the GUI interface only. This means that the terminal is not used for the program.
 
-User Guide
+## User Guide
 
 To run the program follow these command lines in a command-line interface:
 Compile: javac ePortfolio/*.java
@@ -32,6 +32,7 @@ the commands on the upper left part of the window and will be displayed an array
 the portfolio. A similar visual is provided below of what the array of options would look like
 if user clicks on command.
 
+```plaintext
 -----------------------------------------
 |Commands:                              |
 -----------------------------------------
@@ -42,15 +43,16 @@ if user clicks on command.
 |Search investments                     |
 |Quit program                           |
 -----------------------------------------
+```
 
 Depending on their choice selection, the window will change accordingly.
 
 From here, a test plan will be discussed to look into the program with further depth. Each selection
 has a different visual, thus, the test plan goes by choice.
 
-Test Plan
+## Test Plan
 
-Objectives:
+### Objectives:
 1. Compute correct calculations for investments by buying, selling, updating, and calculating total 
    gain of the portfolio.
 2. Ensuring that data is refreshed and up to date after each action is performed. This includes:
@@ -63,7 +65,7 @@ Objectives:
 6. The program can handle different input cases using exception handling without breaking the program.
 7. The outputs from front to back end are accurate to the previous interface results.
 	
-Defensive Programming:
+### Defensive Programming:
 1. The program can accept input and provide refined and specific feedback if user input is not correct.
 3. For numerical inputs that contribute to the programs calculations, measures are considered to ensure that
    the inputs are within bound and will not affect the investments.
@@ -75,7 +77,7 @@ Defensive Programming:
 8. Inputs are handled and input verification is provided feedback along with the ability to retry the input.
 9. User cannot modify areas of the GUI according to the purpose of each area.
 
-Test Cases:
+### Test Cases:
 
 Message/search result panels:
 - User cannot edit the areas
@@ -186,7 +188,7 @@ Quit:
 - Click "quit"
 action: window is closed and program is terminated
 
-Improvements
+## Improvements
 
 My program could be better if I was able to refine my search and make it more efficient. I feel the way I 
 approached search was very divide and conquer. I could've cut my code my a lot of lines if I was more
