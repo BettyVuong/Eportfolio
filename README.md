@@ -1,8 +1,3 @@
-Name: Betty Vuong
-<br>Date: 11/29/24<br/>
-<br>Student ID: 1271673<br/>
-<br>Course: CIS2430<br/>
-
 ## General Problem
 
 The program mimics an investment portfolio where a user can keep track of their investment activities. 
