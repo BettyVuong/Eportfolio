@@ -1,7 +1,6 @@
 /**
  * @author Betty Vuong
  * @version 11/29/24
- * Student ID: 1271673
  * Command lines: 
  * Compile: javac ePortfolio/*.java
  * Bundle JAR: jar cvfe ePortfolio.jar ePortfolio.Portfolio ePortfolio/*.class
